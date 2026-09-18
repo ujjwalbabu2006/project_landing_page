@@ -1,0 +1,179 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #1F2937;
+
+    color: #F9FAF8;
+
+    height: 350px;
+
+    padding: 20px 90px 0 90px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold ;
+}
+
+.navlinks{
+    display: flex;
+    gap: 30px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+
+}
+
+.heroleft{
+    max-width: 40%;
+}
+
+.heroright{
+    max-width: 40%;
+}
+
+.primarytext{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: -20px;
+}
+
+.secondrytext{
+    font-size:18px;
+    color: #E5E7EB;
+    margin-bottom: 0px;
+}
+
+.herobutton{
+    background-color: #3882F6;
+    text-align: center;
+    font-weight: bolder;
+    color: #F9FAF8;
+    padding:5px 20px 5px 20px;
+
+    border-radius: 5px;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 80px;
+}
+
+main h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.boxs{
+    display: flex;
+
+
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+}
+
+
+.quote{
+    background-color: #E5E7EB;
+    display:flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    height: 300px;
+}
+
+.lines{
+    width: 500px;
+    text-align: left;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #1F2937;
+
+}
+
+.teller{
+    width: 450px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.CtoA{
+    background-color: #3882F6;
+
+    height: 100px;
+    width: 600px;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+    margin: 50px auto;
+    padding: 0 100px;
+
+    border-radius: 5px;
+
+
+}
+
+.calltext{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.subcalltext{
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+.callbutton{
+    border: white solid 2px;
+    border-radius: 5px;
+
+    background-color: #3882F6;
+
+    color: white;
+    
+    padding: 5px 10px 5px 10px;
+}
+
+
+footer{
+    background-color: #1F2937;
+    text-align: center;
+
+    color: white;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
